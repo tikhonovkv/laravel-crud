@@ -6,8 +6,9 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">Companies</div>
-                    <div class="panel-body">
-                        Здесь пока ничего нет...
+                    <div class="panel-body table-responsive">
+                        <router-view name="companiesIndex"></router-view>
+                        <router-view></router-view>
                     </div>
                 </div>
             </div>
